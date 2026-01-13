@@ -1,7 +1,6 @@
 include:
   - board: nice_nano_v2
-    shield: corne_left
-    cmake-args: '-DSHIELD="corne_left nice_view_adapter nice_view"'  # КАВЫЧКИ ВАЖНЫ!
+    # УБЕРИТЕ shield: corne_left - он будет только в cmake-args
+    cmake-args: '-DSHIELD="corne_left nice_view_adapter nice_view"'
   - board: nice_nano_v2
-    shield: corne_right
     cmake-args: '-DSHIELD="corne_right nice_view_adapter nice_view"'
